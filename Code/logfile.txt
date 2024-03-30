@@ -1,0 +1,7 @@
+Time: 2023/12/11 13-26-27 | IP: 127.0.0.1 | Valid: GET /index.html HTTP/1.1
+Time: 2023/12/11 13-26-28 | IP: 127.0.0.1 | Valid: GET /get.html HTTP/1.1
+Time: 2023/12/11 13-26-41 | IP: 127.0.0.1 | Valid: GET /get.php?club_name=FCBarcelona&country_name=Spain HTTP/1.1
+Time: 2023/12/11 13-26-42 | IP: 127.0.0.1 | Valid: GET /index.html HTTP/1.1
+Time: 2023/12/11 13-26-43 | IP: 127.0.0.1 | Valid: GET /post.html HTTP/1.1
+Time: 2023/12/11 13-26-54 | IP: 127.0.0.1 | Valid: POST /post.php HTTP/1.1
+Time: 2023/12/11 13-26-56 | IP: 127.0.0.1 | Valid: GET /index.html HTTP/1.1

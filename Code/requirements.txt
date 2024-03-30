@@ -1,0 +1,7 @@
+Required modules in latest Ubuntu OS.
+
+sudo apt-get install python3-magic
+sudo apt-get install php-cgi
+sudo apt install net-tools
+pip install selenium 
+

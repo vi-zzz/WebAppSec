@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Howdy!</title>
+    <style>
+        body {
+            background-color: #4e8c9e; /* Soothing teal color for the background */
+            color: white;
+            font-family: 'Helvetica Neue', sans-serif; /* Modern and clean font */
+            margin: 0;
+            padding: 20px;
+            text-align: center; /* Center aligning the content */
+        }
+        h1 {
+            color: #ffeb3b; /* Bright yellow for the heading */
+        }
+        form {
+            background-color: #ffffff; /* White background for form */
+            padding: 20px;
+            border-radius: 15px; /* Rounded corners for the form */
+            display: inline-block; /* Center the form */
+            margin-top: 20px;
+        }
+        label {
+            margin-right: 10px;
+        }
+        input[type="text"] {
+            border: none;
+            border-bottom: 2px solid #007bff; /* Blue border for input fields */
+            background-color: transparent;
+            margin-bottom: 10px; /* Spacing below each input */
+            padding: 5px;
+            width: 300px; /* Fixed width for inputs */
+            color: #333333;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #007bff; /* Cool blue color for submit button */
+            color: #ffffff;
+            border: none;
+            border-radius: 25px; /* Rounded corners for button */
+            font-size: 16px;
+            font-weight: bold;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Subtle shadow for depth */
+            transition: all 0.3s;
+            cursor: pointer; /* Cursor change to indicate clickable */
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+            box-shadow: 0 6px 12px 0 rgba(0,0,0,0.3);
+        }
+    </style>
+</head>
+<body>
+    <h1>GET Function</h1>
+    <form action="get.php" method="GET">
+        <label for="club_name">First Name:</label>
+        <input type="text" id="club_name" name="club_name" placeholder="Enter your favorite Soccer Team!" />
+        <br>
+        <label for="country_name">Last Name:</label>
+        <input type="text" id="country_name" name="country_name" placeholder="Which country are they from?" />
+        <br><br>
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+</html>
+
+
